@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  gap: 9px;
+  background: black;
+  width: 758px;
+  height: 748px;
+  display: grid;
+  grid-template-columns: 310px 198px 153px 70px;
+  grid-template-rows: 346px 135px 140px 100px;
+}
+
+.white {
+  background-color: #f0f1ec;
+}
+
+.black {
+  background-color: #232629;
+}
+
+.blue {
+  background-color: #004592;
+  border-bottom: 10px solid black;
+}
+
+.red {
+  background-color: #e72f24;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.yellow {
+  background-color: #f9d01e;
+}
+
+.firstwbox {
+  grid-column: span 3;
+}
+
+.thirdwbox,
+.secwbox,
+.forthwbox {
+  grid-row: span 2;
+}
+
+.thirdwbox {
+  grid-column: span 2;
+}
